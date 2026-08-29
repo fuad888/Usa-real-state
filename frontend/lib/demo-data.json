@@ -1,0 +1,1088 @@
+{
+ "properties": [
+  {
+   "id": 9,
+   "slug": "santa-monica-88-pacific-terrace",
+   "title": "Ocean-view townhome three blocks from the bluff",
+   "address": "88 Pacific Terrace",
+   "city": "Santa Monica",
+   "state": "CA",
+   "zip_code": "90402",
+   "neighborhood": "North of Montana",
+   "latitude": 34.033,
+   "longitude": -118.5063,
+   "price": 3150000.0,
+   "listing_type": "buy",
+   "status": "price_reduced",
+   "property_type": "townhome",
+   "bedrooms": 3,
+   "bathrooms": 3.0,
+   "square_footage": 2950,
+   "lot_size": 3400,
+   "year_built": 2008,
+   "hoa_fee": 680,
+   "is_featured": true,
+   "open_house_at": null,
+   "community_slug": "santa-monica",
+   "community_name": "Santa Monica",
+   "agent_slug": "david-okonkwo",
+   "agent_name": "David Okonkwo",
+   "has_tour": false,
+   "price_per_sqft": 1068,
+   "images": [
+    {
+     "id": 41,
+     "url": "",
+     "caption": "Front elevation",
+     "room": "Exterior",
+     "order": 0
+    },
+    {
+     "id": 42,
+     "url": "",
+     "caption": "Living floor with ocean view",
+     "room": "Living Room",
+     "order": 1
+    },
+    {
+     "id": 43,
+     "url": "",
+     "caption": "Kitchen and dining",
+     "room": "Kitchen",
+     "order": 2
+    },
+    {
+     "id": 44,
+     "url": "",
+     "caption": "Primary bedroom",
+     "room": "Primary Suite",
+     "order": 3
+    },
+    {
+     "id": 45,
+     "url": "",
+     "caption": "Roof deck",
+     "room": "Roof Deck",
+     "order": 4
+    }
+   ],
+   "created_at": "2026-08-29T07:13:07.855151-07:00",
+   "description_en": "A front-facing townhome on a quiet terrace three blocks from the bluff, with ocean views from the living floor and the roof deck.\n\nThree bedrooms, an elevator to all levels, and a two-car garage \u2014 the combination that keeps this pocket of Santa Monica liquid even in slower quarters. Recently repriced to meet the market.\n\nHOA covers exterior, roof and common insurance.",
+   "description_es": "Una casa adosada frontal en una terraza tranquila a tres cuadras del acantilado, con vistas al mar desde la planta principal y la azotea.",
+   "highlights": [
+    "Ocean views from two floors",
+    "Private roof deck",
+    "Three blocks to Palisades Park",
+    "Recently reduced"
+   ],
+   "features": [
+    "Roof Deck",
+    "2-Car Garage",
+    "Elevator",
+    "Fireplace",
+    "In-Unit Laundry"
+   ],
+   "agent": {
+    "id": 5,
+    "name": "David Okonkwo",
+    "slug": "david-okonkwo",
+    "title": "Partner \u00b7 Coastal Division",
+    "photo_url": "",
+    "bio_en": "David leads the coastal practice, from Carbon Beach to the Palisades bluffs. A former land-use analyst, he is the person clients call when a property's value turns on a coastal permit, a setback or a view easement.",
+    "bio_es": "David dirige la pr\u00e1ctica costera, desde Carbon Beach hasta los acantilados de Palisades. Ex analista de uso de suelo, es a quien llaman los clientes cuando el valor depende de un permiso costero o una servidumbre de vistas.",
+    "phone": "(310) 555-0177",
+    "email": "david@solandstone.example",
+    "license_number": "DRE #02043xxx",
+    "specialties": [
+     "Oceanfront",
+     "New Development",
+     "1031 Exchanges"
+    ],
+    "neighborhoods": [
+     "Malibu",
+     "Pacific Palisades",
+     "Santa Monica"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$286M",
+     "homes_sold": 94,
+     "years_experience": 11,
+     "avg_days_on_market": 34
+    }
+   },
+   "tour_scenes": []
+  },
+  {
+   "id": 8,
+   "slug": "los-angeles-742-hillcrest-avenue",
+   "title": "A restored 1948 post-and-beam with a new kitchen",
+   "address": "742 Hillcrest Avenue",
+   "city": "Los Angeles",
+   "state": "CA",
+   "zip_code": "90049",
+   "neighborhood": "Brentwood Glen",
+   "latitude": 34.0561,
+   "longitude": -118.4712,
+   "price": 1895000.0,
+   "listing_type": "buy",
+   "status": "open_house",
+   "property_type": "single_family",
+   "bedrooms": 4,
+   "bathrooms": 3.5,
+   "square_footage": 2840,
+   "lot_size": 7200,
+   "year_built": 1948,
+   "hoa_fee": null,
+   "is_featured": true,
+   "open_house_at": "2026-09-01T07:13:07.786088-07:00",
+   "community_slug": null,
+   "community_name": null,
+   "agent_slug": "camila-reyes",
+   "agent_name": "Camila Reyes",
+   "has_tour": false,
+   "price_per_sqft": 667,
+   "images": [
+    {
+     "id": 36,
+     "url": "",
+     "caption": "Street elevation",
+     "room": "Exterior",
+     "order": 0
+    },
+    {
+     "id": 37,
+     "url": "",
+     "caption": "Living room with original beams",
+     "room": "Living Room",
+     "order": 1
+    },
+    {
+     "id": 38,
+     "url": "",
+     "caption": "New kitchen",
+     "room": "Kitchen",
+     "order": 2
+    },
+    {
+     "id": 39,
+     "url": "",
+     "caption": "Primary bedroom",
+     "room": "Primary Suite",
+     "order": 3
+    },
+    {
+     "id": 40,
+     "url": "",
+     "caption": "Rear garden",
+     "room": "Garden",
+     "order": 4
+    }
+   ],
+   "created_at": "2026-08-29T07:13:07.852820-07:00",
+   "description_en": "A 1948 post-and-beam that has been brought forward carefully: the original structure, clerestory glazing and brick hearth are intact, while the kitchen, baths, systems and roof are all new within the last two years.\n\nThe plan is a genuine four-bedroom, with a north-facing garden that stays usable through August and a detached studio at the rear currently used as an office.\n\nOpen house Saturday and Sunday, 1\u20134pm.",
+   "description_es": "Una casa post-and-beam de 1948 restaurada con cuidado: la estructura original, los ventanales altos y la chimenea de ladrillo intactos; cocina, ba\u00f1os e instalaciones nuevos.",
+   "highlights": [
+    "Original post-and-beam structure",
+    "New kitchen and baths",
+    "North-facing garden",
+    "Detached studio"
+   ],
+   "features": [
+    "Fireplace",
+    "2-Car Garage",
+    "Central AC",
+    "Studio",
+    "Mature Landscaping"
+   ],
+   "agent": {
+    "id": 6,
+    "name": "Camila Reyes",
+    "slug": "camila-reyes",
+    "title": "Senior Advisor",
+    "photo_url": "",
+    "bio_en": "Camila represents families moving into and out of the Valley's gated communities. She works in English and Spanish and has closed more than a hundred transactions without a single listing expiring unsold.",
+    "bio_es": "Camila representa a familias que entran y salen de las comunidades privadas del Valle. Trabaja en ingl\u00e9s y espa\u00f1ol y ha cerrado m\u00e1s de cien transacciones sin que una sola propiedad haya expirado sin venderse.",
+    "phone": "(818) 555-0190",
+    "email": "camila@solandstone.example",
+    "license_number": "DRE #02110xxx",
+    "specialties": [
+     "Family Estates",
+     "Relocation",
+     "Bilingual Representation"
+    ],
+    "neighborhoods": [
+     "Calabasas",
+     "Hidden Hills",
+     "Studio City"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$164M",
+     "homes_sold": 121,
+     "years_experience": 8,
+     "avg_days_on_market": 31
+    }
+   },
+   "tour_scenes": []
+  },
+  {
+   "id": 7,
+   "slug": "malibu-210-ocean-front-walk",
+   "title": "Sand-level contemporary on a rare wide frontage",
+   "address": "210 Ocean Front Walk",
+   "city": "Malibu",
+   "state": "CA",
+   "zip_code": "90265",
+   "neighborhood": "Point Dume",
+   "latitude": 34.0106,
+   "longitude": -118.8065,
+   "price": 6900000.0,
+   "listing_type": "buy",
+   "status": "coming_soon",
+   "property_type": "single_family",
+   "bedrooms": 4,
+   "bathrooms": 4.5,
+   "square_footage": 4800,
+   "lot_size": 9800,
+   "year_built": 2016,
+   "hoa_fee": null,
+   "is_featured": true,
+   "open_house_at": null,
+   "community_slug": "malibu",
+   "community_name": "Malibu",
+   "agent_slug": "david-okonkwo",
+   "agent_name": "David Okonkwo",
+   "has_tour": false,
+   "price_per_sqft": 1438,
+   "images": [
+    {
+     "id": 31,
+     "url": "",
+     "caption": "Ocean elevation",
+     "room": "Exterior",
+     "order": 0
+    },
+    {
+     "id": 32,
+     "url": "",
+     "caption": "Sand-level living floor",
+     "room": "Living Room",
+     "order": 1
+    },
+    {
+     "id": 33,
+     "url": "",
+     "caption": "Open kitchen and dining",
+     "room": "Kitchen",
+     "order": 2
+    },
+    {
+     "id": 34,
+     "url": "",
+     "caption": "Primary suite above the water",
+     "room": "Primary Suite",
+     "order": 3
+    },
+    {
+     "id": 35,
+     "url": "",
+     "caption": "Terrace and spa",
+     "room": "Terrace",
+     "order": 4
+    }
+   ],
+   "created_at": "2026-08-29T07:13:07.850594-07:00",
+   "description_en": "Fifty-eight feet of frontage on one of the wider sand parcels at Point Dume, with a permitted seawall already in place \u2014 the detail that decides value on this stretch.\n\nThe house is planned in three levels that step back from the water: a glass-walled living floor at sand level, bedrooms above, and a roof deck that clears the neighbouring rooflines. A detached studio at the motor court serves as a guest suite or office.\n\nComing to market shortly. Private previews are available to qualified buyers.",
+   "description_es": "Casi dieciocho metros de frente en una de las parcelas m\u00e1s anchas de Point Dume, con malec\u00f3n ya permitido \u2014 el detalle que decide el valor en este tramo de costa.",
+   "highlights": [
+    "58 feet of sand frontage",
+    "Whitewater views from three levels",
+    "Permitted seawall",
+    "Detached guest studio"
+   ],
+   "features": [
+    "Beach Access",
+    "Outdoor Shower",
+    "2-Car Garage",
+    "Solar",
+    "Guest House",
+    "Fire Pit",
+    "Heated Floors"
+   ],
+   "agent": {
+    "id": 5,
+    "name": "David Okonkwo",
+    "slug": "david-okonkwo",
+    "title": "Partner \u00b7 Coastal Division",
+    "photo_url": "",
+    "bio_en": "David leads the coastal practice, from Carbon Beach to the Palisades bluffs. A former land-use analyst, he is the person clients call when a property's value turns on a coastal permit, a setback or a view easement.",
+    "bio_es": "David dirige la pr\u00e1ctica costera, desde Carbon Beach hasta los acantilados de Palisades. Ex analista de uso de suelo, es a quien llaman los clientes cuando el valor depende de un permiso costero o una servidumbre de vistas.",
+    "phone": "(310) 555-0177",
+    "email": "david@solandstone.example",
+    "license_number": "DRE #02043xxx",
+    "specialties": [
+     "Oceanfront",
+     "New Development",
+     "1031 Exchanges"
+    ],
+    "neighborhoods": [
+     "Malibu",
+     "Pacific Palisades",
+     "Santa Monica"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$286M",
+     "homes_sold": 94,
+     "years_experience": 11,
+     "avg_days_on_market": 34
+    }
+   },
+   "tour_scenes": []
+  },
+  {
+   "id": 6,
+   "slug": "beverly-hills-1428-blue-jay-way",
+   "title": "A canyon-edge modern above the Sunset Strip",
+   "address": "1428 Blue Jay Way",
+   "city": "Beverly Hills",
+   "state": "CA",
+   "zip_code": "90210",
+   "neighborhood": "Bird Streets",
+   "latitude": 34.0996,
+   "longitude": -118.3843,
+   "price": 4250000.0,
+   "listing_type": "buy",
+   "status": "new",
+   "property_type": "single_family",
+   "bedrooms": 5,
+   "bathrooms": 6.0,
+   "square_footage": 6200,
+   "lot_size": 14500,
+   "year_built": 2019,
+   "hoa_fee": null,
+   "is_featured": true,
+   "open_house_at": null,
+   "community_slug": "beverly-hills",
+   "community_name": "Beverly Hills",
+   "agent_slug": "elena-marchetti",
+   "agent_name": "Elena Marchetti",
+   "has_tour": true,
+   "price_per_sqft": 685,
+   "images": [
+    {
+     "id": 26,
+     "url": "",
+     "caption": "Front elevation at golden hour",
+     "room": "Exterior",
+     "order": 0
+    },
+    {
+     "id": 27,
+     "url": "",
+     "caption": "Living room with retractable glass wall",
+     "room": "Living Room",
+     "order": 1
+    },
+    {
+     "id": 28,
+     "url": "",
+     "caption": "Chef's kitchen with walnut island",
+     "room": "Kitchen",
+     "order": 2
+    },
+    {
+     "id": 29,
+     "url": "",
+     "caption": "Primary suite facing the canyon",
+     "room": "Primary Suite",
+     "order": 3
+    },
+    {
+     "id": 30,
+     "url": "",
+     "caption": "Infinity pool and terrace",
+     "room": "Pool",
+     "order": 4
+    }
+   ],
+   "created_at": "2026-08-29T07:13:07.846269-07:00",
+   "description_en": "Set on a promontory at the top of the Bird Streets, this 2019 residence is organised around a single uninterrupted view corridor that runs from the canyon wall to the Pacific.\n\nThe main level opens completely: forty feet of glass retract into the walls so the living room, the terrace and the pool deck read as one room. Below, four bedroom suites share a gallery-lit hall; above, the primary occupies its own floor with a private terrace, dual dressing rooms and a stone bath that faces due west.\n\nOffered with a full 360\u00b0 tour of the principal rooms.",
+   "description_es": "Situada en un promontorio en lo alto de las Bird Streets, esta residencia de 2019 se organiza en torno a un \u00fanico corredor de vistas que va desde la pared del ca\u00f1\u00f3n hasta el Pac\u00edfico.\n\nEl nivel principal se abre por completo: doce metros de cristal se retraen en los muros.",
+   "highlights": [
+    "Canyon-to-ocean views",
+    "Disappearing walls of glass",
+    "Two-story entry gallery",
+    "Rooftop terrace with fire pit"
+   ],
+   "features": [
+    "Infinity Pool",
+    "4-Car Garage",
+    "Wine Room",
+    "Home Theater",
+    "Smart Home",
+    "Chef's Kitchen",
+    "Primary Suite Terrace",
+    "Gated Motor Court"
+   ],
+   "agent": {
+    "id": 4,
+    "name": "Elena Marchetti",
+    "slug": "elena-marchetti",
+    "title": "Founding Partner \u00b7 DRE #01998xxx",
+    "photo_url": "",
+    "bio_en": "Elena founded Sol & Stone after fourteen years representing architecturally significant homes on the Westside. She is known for quiet, discreet transactions and for a marketing approach that treats every listing as an editorial subject rather than an inventory item.",
+    "bio_es": "Elena fund\u00f3 Sol & Stone tras catorce a\u00f1os representando casas de valor arquitect\u00f3nico en el Westside. Es conocida por transacciones discretas y por un enfoque de marketing que trata cada propiedad como un tema editorial.",
+    "phone": "(310) 555-0142",
+    "email": "elena@solandstone.example",
+    "license_number": "DRE #01998xxx",
+    "specialties": [
+     "Trophy Estates",
+     "Architectural Homes",
+     "Off-Market Sales"
+    ],
+    "neighborhoods": [
+     "Beverly Hills",
+     "Bel Air",
+     "Holmby Hills"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$412M",
+     "homes_sold": 168,
+     "years_experience": 14,
+     "avg_days_on_market": 27
+    }
+   },
+   "tour_scenes": [
+    {
+     "id": 5,
+     "scene_id": "living-room",
+     "room_name": "Living Room",
+     "url": "",
+     "initial_yaw": 0.0,
+     "initial_pitch": -4.0,
+     "hotspots": [
+      {
+       "yaw": 152,
+       "pitch": -6,
+       "target": "kitchen",
+       "text": "Kitchen"
+      },
+      {
+       "yaw": -118,
+       "pitch": -6,
+       "target": "primary-suite",
+       "text": "Primary Suite"
+      },
+      {
+       "yaw": 8,
+       "pitch": -10,
+       "target": "terrace",
+       "text": "Pool Terrace"
+      }
+     ],
+     "order": 1
+    },
+    {
+     "id": 6,
+     "scene_id": "kitchen",
+     "room_name": "Kitchen",
+     "url": "",
+     "initial_yaw": 170.0,
+     "initial_pitch": -6.0,
+     "hotspots": [
+      {
+       "yaw": -14,
+       "pitch": -8,
+       "target": "living-room",
+       "text": "Living Room"
+      },
+      {
+       "yaw": 96,
+       "pitch": -8,
+       "target": "primary-suite",
+       "text": "Primary Suite"
+      }
+     ],
+     "order": 2
+    },
+    {
+     "id": 7,
+     "scene_id": "primary-suite",
+     "room_name": "Primary Suite",
+     "url": "",
+     "initial_yaw": 175.0,
+     "initial_pitch": -5.0,
+     "hotspots": [
+      {
+       "yaw": -20,
+       "pitch": -8,
+       "target": "living-room",
+       "text": "Living Room"
+      },
+      {
+       "yaw": 88,
+       "pitch": -8,
+       "target": "terrace",
+       "text": "Pool Terrace"
+      }
+     ],
+     "order": 3
+    },
+    {
+     "id": 8,
+     "scene_id": "terrace",
+     "room_name": "Pool Terrace",
+     "url": "",
+     "initial_yaw": 0.0,
+     "initial_pitch": -8.0,
+     "hotspots": [
+      {
+       "yaw": 6,
+       "pitch": -4,
+       "target": "living-room",
+       "text": "Back Inside"
+      }
+     ],
+     "order": 4
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "slug": "calabasas-15-rolling-hills-drive",
+   "title": "Gated family estate on just under an acre",
+   "address": "15 Rolling Hills Drive",
+   "city": "Calabasas",
+   "state": "CA",
+   "zip_code": "91302",
+   "neighborhood": "The Oaks",
+   "latitude": 34.1367,
+   "longitude": -118.6614,
+   "price": 2475000.0,
+   "listing_type": "buy",
+   "status": "pending",
+   "property_type": "estate",
+   "bedrooms": 5,
+   "bathrooms": 4.0,
+   "square_footage": 4100,
+   "lot_size": 41000,
+   "year_built": 2004,
+   "hoa_fee": 420,
+   "is_featured": false,
+   "open_house_at": null,
+   "community_slug": null,
+   "community_name": null,
+   "agent_slug": "camila-reyes",
+   "agent_name": "Camila Reyes",
+   "has_tour": false,
+   "price_per_sqft": 604,
+   "images": [
+    {
+     "id": 46,
+     "url": "",
+     "caption": "Front elevation and motor court",
+     "room": "Exterior",
+     "order": 0
+    },
+    {
+     "id": 47,
+     "url": "",
+     "caption": "Family room",
+     "room": "Living Room",
+     "order": 1
+    },
+    {
+     "id": 48,
+     "url": "",
+     "caption": "Kitchen with island seating",
+     "room": "Kitchen",
+     "order": 2
+    },
+    {
+     "id": 49,
+     "url": "",
+     "caption": "Primary suite",
+     "room": "Primary Suite",
+     "order": 3
+    },
+    {
+     "id": 50,
+     "url": "",
+     "caption": "Pool, spa and loggia",
+     "room": "Pool",
+     "order": 4
+    }
+   ],
+   "created_at": "2026-08-29T07:13:07.857342-07:00",
+   "description_en": "Just under an acre behind a guarded gate, with the flat usable yard that is genuinely scarce in the Santa Monica Mountains foothills.\n\nFive bedrooms including a main-floor suite, a pool and spa, a sport court, and an outdoor kitchen under a covered loggia. The house was built in 2004 and re-roofed and re-piped in 2021.\n\nCurrently in escrow; back-up offers are being accepted.",
+   "description_es": "Poco menos de media hect\u00e1rea tras una puerta con vigilancia, con el patio plano y utilizable que escasea en las estribaciones de las Santa Monica Mountains.",
+   "highlights": [
+    "0.94-acre flat lot",
+    "24-hour guarded gate",
+    "Sport court and pool",
+    "Five bedrooms including a main-floor suite"
+   ],
+   "features": [
+    "Pool",
+    "Spa",
+    "Sport Court",
+    "3-Car Garage",
+    "Guard Gate",
+    "Solar",
+    "Outdoor Kitchen"
+   ],
+   "agent": {
+    "id": 6,
+    "name": "Camila Reyes",
+    "slug": "camila-reyes",
+    "title": "Senior Advisor",
+    "photo_url": "",
+    "bio_en": "Camila represents families moving into and out of the Valley's gated communities. She works in English and Spanish and has closed more than a hundred transactions without a single listing expiring unsold.",
+    "bio_es": "Camila representa a familias que entran y salen de las comunidades privadas del Valle. Trabaja en ingl\u00e9s y espa\u00f1ol y ha cerrado m\u00e1s de cien transacciones sin que una sola propiedad haya expirado sin venderse.",
+    "phone": "(818) 555-0190",
+    "email": "camila@solandstone.example",
+    "license_number": "DRE #02110xxx",
+    "specialties": [
+     "Family Estates",
+     "Relocation",
+     "Bilingual Representation"
+    ],
+    "neighborhoods": [
+     "Calabasas",
+     "Hidden Hills",
+     "Studio City"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$164M",
+     "homes_sold": 121,
+     "years_experience": 8,
+     "avg_days_on_market": 31
+    }
+   },
+   "tour_scenes": []
+  }
+ ],
+ "agents": [
+  {
+   "id": 4,
+   "name": "Elena Marchetti",
+   "slug": "elena-marchetti",
+   "title": "Founding Partner \u00b7 DRE #01998xxx",
+   "photo_url": "",
+   "bio_en": "Elena founded Sol & Stone after fourteen years representing architecturally significant homes on the Westside. She is known for quiet, discreet transactions and for a marketing approach that treats every listing as an editorial subject rather than an inventory item.",
+   "bio_es": "Elena fund\u00f3 Sol & Stone tras catorce a\u00f1os representando casas de valor arquitect\u00f3nico en el Westside. Es conocida por transacciones discretas y por un enfoque de marketing que trata cada propiedad como un tema editorial.",
+   "phone": "(310) 555-0142",
+   "email": "elena@solandstone.example",
+   "license_number": "DRE #01998xxx",
+   "specialties": [
+    "Trophy Estates",
+    "Architectural Homes",
+    "Off-Market Sales"
+   ],
+   "neighborhoods": [
+    "Beverly Hills",
+    "Bel Air",
+    "Holmby Hills"
+   ],
+   "career_stats": {
+    "total_sales_volume": "$412M",
+    "homes_sold": 168,
+    "years_experience": 14,
+    "avg_days_on_market": 27
+   }
+  },
+  {
+   "id": 5,
+   "name": "David Okonkwo",
+   "slug": "david-okonkwo",
+   "title": "Partner \u00b7 Coastal Division",
+   "photo_url": "",
+   "bio_en": "David leads the coastal practice, from Carbon Beach to the Palisades bluffs. A former land-use analyst, he is the person clients call when a property's value turns on a coastal permit, a setback or a view easement.",
+   "bio_es": "David dirige la pr\u00e1ctica costera, desde Carbon Beach hasta los acantilados de Palisades. Ex analista de uso de suelo, es a quien llaman los clientes cuando el valor depende de un permiso costero o una servidumbre de vistas.",
+   "phone": "(310) 555-0177",
+   "email": "david@solandstone.example",
+   "license_number": "DRE #02043xxx",
+   "specialties": [
+    "Oceanfront",
+    "New Development",
+    "1031 Exchanges"
+   ],
+   "neighborhoods": [
+    "Malibu",
+    "Pacific Palisades",
+    "Santa Monica"
+   ],
+   "career_stats": {
+    "total_sales_volume": "$286M",
+    "homes_sold": 94,
+    "years_experience": 11,
+    "avg_days_on_market": 34
+   }
+  },
+  {
+   "id": 6,
+   "name": "Camila Reyes",
+   "slug": "camila-reyes",
+   "title": "Senior Advisor",
+   "photo_url": "",
+   "bio_en": "Camila represents families moving into and out of the Valley's gated communities. She works in English and Spanish and has closed more than a hundred transactions without a single listing expiring unsold.",
+   "bio_es": "Camila representa a familias que entran y salen de las comunidades privadas del Valle. Trabaja en ingl\u00e9s y espa\u00f1ol y ha cerrado m\u00e1s de cien transacciones sin que una sola propiedad haya expirado sin venderse.",
+   "phone": "(818) 555-0190",
+   "email": "camila@solandstone.example",
+   "license_number": "DRE #02110xxx",
+   "specialties": [
+    "Family Estates",
+    "Relocation",
+    "Bilingual Representation"
+   ],
+   "neighborhoods": [
+    "Calabasas",
+    "Hidden Hills",
+    "Studio City"
+   ],
+   "career_stats": {
+    "total_sales_volume": "$164M",
+    "homes_sold": 121,
+    "years_experience": 8,
+    "avg_days_on_market": 31
+   }
+  }
+ ],
+ "communities": [
+  {
+   "id": 4,
+   "name": "Beverly Hills",
+   "slug": "beverly-hills",
+   "state": "CA",
+   "hero_image": "",
+   "tagline_en": "Flat streets, deep lots, and the most durable address in California.",
+   "tagline_es": "Calles llanas, lotes profundos y la direcci\u00f3n m\u00e1s duradera de California.",
+   "description_en": "The flats south of Sunset trade on lot width and street canopy; north of Sunset the market is driven by architecture and privacy. Inventory is thin in both, and the gap between a renovated house and a project has widened every quarter for two years.\n\nBuyers here are usually trading up from the Westside or relocating from out of state, and they underwrite on land value first, improvements second.",
+   "description_es": "Los terrenos al sur de Sunset se valoran por el ancho del lote; al norte de Sunset el mercado lo impulsan la arquitectura y la privacidad. El inventario es escaso en ambos.",
+   "latitude": 34.0736,
+   "longitude": -118.4004,
+   "market_data": {
+    "median_price": 4250000,
+    "active_listings": 128,
+    "median_dom": 41,
+    "price_per_sqft": 1210,
+    "yoy_change": 2.4
+   },
+   "lifestyle_info": [
+    {
+     "category": "Dining",
+     "items": [
+      "Canon Drive restaurant row",
+      "Two-Michelin-star tasting rooms",
+      "Sunset-adjacent hotel bars"
+     ]
+    },
+    {
+     "category": "Shopping",
+     "items": [
+      "Rodeo Drive",
+      "Beverly Drive boutiques",
+      "Century City"
+     ]
+    },
+    {
+     "category": "Schools",
+     "items": [
+      "Beverly Hills USD",
+      "Independent K-12 within 3 miles"
+     ]
+    },
+    {
+     "category": "Parks & Recreation",
+     "items": [
+      "Coldwater Canyon Park",
+      "Franklin Canyon trails",
+      "Roxbury Park"
+     ]
+    }
+   ],
+   "is_featured": true,
+   "active_listings": 1
+  },
+  {
+   "id": 5,
+   "name": "Malibu",
+   "slug": "malibu",
+   "state": "CA",
+   "hero_image": "",
+   "tagline_en": "Twenty-one miles of coastline, and no two blocks priced alike.",
+   "tagline_es": "Treinta y cuatro kil\u00f3metros de costa, y ni dos manzanas con el mismo precio.",
+   "description_en": "Malibu is not one market but a dozen: beachfront, bluff, canyon and ranch each move on their own cycle. Sand-level frontage clears fastest; canyon inventory sits longest.\n\nCoastal permitting and fire-hardening requirements now shape value as much as square footage does \u2014 a buildable, permitted lot commands a premium that did not exist a decade ago.",
+   "description_es": "Malib\u00fa no es un mercado sino doce: playa, acantilado, ca\u00f1\u00f3n y rancho, cada uno con su propio ciclo. El frente de playa se vende m\u00e1s r\u00e1pido; el inventario del ca\u00f1\u00f3n tarda m\u00e1s.",
+   "latitude": 34.0259,
+   "longitude": -118.7798,
+   "market_data": {
+    "median_price": 5100000,
+    "active_listings": 96,
+    "median_dom": 58,
+    "price_per_sqft": 1480,
+    "yoy_change": 1.2
+   },
+   "lifestyle_info": [
+    {
+     "category": "Beaches",
+     "items": [
+      "Point Dume",
+      "Zuma",
+      "Carbon Beach",
+      "El Matador"
+     ]
+    },
+    {
+     "category": "Dining",
+     "items": [
+      "Cross Creek",
+      "PCH seafood houses",
+      "Trancas Country Market"
+     ]
+    },
+    {
+     "category": "Schools",
+     "items": [
+      "Santa Monica\u2013Malibu USD",
+      "Independent day schools"
+     ]
+    },
+    {
+     "category": "Outdoors",
+     "items": [
+      "Solstice Canyon",
+      "Escondido Falls",
+      "Malibu Creek State Park"
+     ]
+    }
+   ],
+   "is_featured": true,
+   "active_listings": 1
+  },
+  {
+   "id": 6,
+   "name": "Santa Monica",
+   "slug": "santa-monica",
+   "state": "CA",
+   "hero_image": "",
+   "tagline_en": "Walkable, ocean-cooled, and the tightest supply on the Westside.",
+   "tagline_es": "Caminable, refrescada por el oc\u00e9ano y con la oferta m\u00e1s escasa del Westside.",
+   "description_en": "North of Montana holds value through every cycle; Ocean Park and Sunset Park carry the volume. What Santa Monica sells is a fifteen-minute city \u2014 buyers give up lot size for the ability to walk to work, school and the water.\n\nCondominium supply is genuinely constrained, and well-run buildings near Palisades Park rarely stay listed a full month.",
+   "description_es": "Al norte de Montana el valor se mantiene en cada ciclo; Ocean Park y Sunset Park aportan el volumen. Santa M\u00f3nica vende una ciudad de quince minutos.",
+   "latitude": 34.0195,
+   "longitude": -118.4912,
+   "market_data": {
+    "median_price": 2980000,
+    "active_listings": 154,
+    "median_dom": 29,
+    "price_per_sqft": 1105,
+    "yoy_change": 3.1
+   },
+   "lifestyle_info": [
+    {
+     "category": "Dining",
+     "items": [
+      "Main Street",
+      "Montana Avenue",
+      "Downtown SM"
+     ]
+    },
+    {
+     "category": "Shopping",
+     "items": [
+      "Third Street Promenade",
+      "Montana Avenue boutiques"
+     ]
+    },
+    {
+     "category": "Schools",
+     "items": [
+      "Santa Monica\u2013Malibu USD",
+      "Crossroads",
+      "Lighthouse"
+     ]
+    },
+    {
+     "category": "Outdoors",
+     "items": [
+      "Palisades Park",
+      "The Strand",
+      "Annenberg Community Beach House"
+     ]
+    }
+   ],
+   "is_featured": true,
+   "active_listings": 1
+  }
+ ],
+ "insights": [
+  {
+   "id": 5,
+   "slug": "california-luxury-market-q3",
+   "title_en": "Where the California luxury market actually stands",
+   "title_es": "D\u00f3nde est\u00e1 realmente el mercado de lujo de California",
+   "excerpt_en": "Median prices held, but the spread between renovated and unrenovated product widened again. What that means if you are selling this quarter.",
+   "excerpt_es": "Los precios medianos se mantuvieron, pero la diferencia entre producto renovado y sin renovar volvi\u00f3 a ampliarse.",
+   "cover_image": "",
+   "category": "market_report",
+   "read_minutes": 6,
+   "published_at": "2026-08-25T07:13:07.786088-07:00",
+   "body_en": "Headline medians are the least useful number in a luxury market, because they average two things that are moving in opposite directions.\n\nRenovated, permitted, move-in product is still clearing close to ask and inside forty days. Unrenovated inventory at the same address band is taking twice as long and closing five to nine percent under list. The median hides both.\n\nFor sellers the implication is unglamorous: the pre-market preparation budget is now the single highest-return decision in the transaction. For buyers, the opposite \u2014 the discount for taking on a project has not been this wide since 2019.\n\nWe publish this report quarterly, drawn from closed transactions rather than list prices.",
+   "body_es": "Las medianas de titular son el n\u00famero menos \u00fatil en un mercado de lujo, porque promedian dos cosas que se mueven en direcciones opuestas.\n\nEl producto renovado y listo para habitar sigue cerrando cerca del precio de lista y en menos de cuarenta d\u00edas. El inventario sin renovar tarda el doble.",
+   "author": {
+    "id": 4,
+    "name": "Elena Marchetti",
+    "slug": "elena-marchetti",
+    "title": "Founding Partner \u00b7 DRE #01998xxx",
+    "photo_url": "",
+    "bio_en": "Elena founded Sol & Stone after fourteen years representing architecturally significant homes on the Westside. She is known for quiet, discreet transactions and for a marketing approach that treats every listing as an editorial subject rather than an inventory item.",
+    "bio_es": "Elena fund\u00f3 Sol & Stone tras catorce a\u00f1os representando casas de valor arquitect\u00f3nico en el Westside. Es conocida por transacciones discretas y por un enfoque de marketing que trata cada propiedad como un tema editorial.",
+    "phone": "(310) 555-0142",
+    "email": "elena@solandstone.example",
+    "license_number": "DRE #01998xxx",
+    "specialties": [
+     "Trophy Estates",
+     "Architectural Homes",
+     "Off-Market Sales"
+    ],
+    "neighborhoods": [
+     "Beverly Hills",
+     "Bel Air",
+     "Holmby Hills"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$412M",
+     "homes_sold": 168,
+     "years_experience": 14,
+     "avg_days_on_market": 27
+    }
+   }
+  },
+  {
+   "id": 6,
+   "slug": "beverly-hills-neighborhood-guide",
+   "title_en": "Beverly Hills, street by street",
+   "title_es": "Beverly Hills, calle por calle",
+   "excerpt_en": "The flats, the post-office district, and north of Sunset are three separate markets. A practical guide to which one you are actually buying into.",
+   "excerpt_es": "Los flats, el distrito de la oficina de correos y el norte de Sunset son tres mercados distintos.",
+   "cover_image": "",
+   "category": "neighborhood_guide",
+   "read_minutes": 8,
+   "published_at": "2026-08-11T07:13:07.786088-07:00",
+   "body_en": "People say Beverly Hills as though it were one market. It is at least three, and they price differently enough that confusing them will cost you.\n\n**The flats.** South of Sunset, north of Wilshire. Value tracks lot width and street canopy more than it tracks the house. A fifty-foot lot and a seventy-foot lot on the same block are not the same asset.\n\n**North of Sunset.** Hillside, winding, private. Architecture and view carry the price here, and a difficult driveway can take ten percent off an otherwise strong house.\n\n**Trousdale.** Flat pads, low rooflines, protected views by covenant. It behaves like its own micro-market and often leads the others by a quarter.",
+   "body_es": "La gente dice Beverly Hills como si fuera un solo mercado. Son al menos tres, y sus precios se comportan de forma lo bastante distinta como para que confundirlos salga caro.",
+   "author": {
+    "id": 4,
+    "name": "Elena Marchetti",
+    "slug": "elena-marchetti",
+    "title": "Founding Partner \u00b7 DRE #01998xxx",
+    "photo_url": "",
+    "bio_en": "Elena founded Sol & Stone after fourteen years representing architecturally significant homes on the Westside. She is known for quiet, discreet transactions and for a marketing approach that treats every listing as an editorial subject rather than an inventory item.",
+    "bio_es": "Elena fund\u00f3 Sol & Stone tras catorce a\u00f1os representando casas de valor arquitect\u00f3nico en el Westside. Es conocida por transacciones discretas y por un enfoque de marketing que trata cada propiedad como un tema editorial.",
+    "phone": "(310) 555-0142",
+    "email": "elena@solandstone.example",
+    "license_number": "DRE #01998xxx",
+    "specialties": [
+     "Trophy Estates",
+     "Architectural Homes",
+     "Off-Market Sales"
+    ],
+    "neighborhoods": [
+     "Beverly Hills",
+     "Bel Air",
+     "Holmby Hills"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$412M",
+     "homes_sold": 168,
+     "years_experience": 14,
+     "avg_days_on_market": 27
+    }
+   }
+  },
+  {
+   "id": 7,
+   "slug": "what-to-do-before-you-tour",
+   "title_en": "Six things to settle before you tour a single house",
+   "title_es": "Seis cosas que resolver antes de ver una sola casa",
+   "excerpt_en": "Financing, title, insurance and inspection access decide more deals at this price point than the houses themselves do.",
+   "excerpt_es": "El financiamiento, el t\u00edtulo, el seguro y el acceso a inspecciones deciden m\u00e1s operaciones que las casas mismas.",
+   "cover_image": "",
+   "category": "buying_guide",
+   "read_minutes": 5,
+   "published_at": "2026-07-28T07:13:07.786088-07:00",
+   "body_en": "At this price point, the buyers who win are not the ones who move fastest on emotion. They are the ones who have already removed every reason a seller might say no.\n\nSettle your financing structure in writing. Confirm insurability early \u2014 in fire zones this now takes weeks, not days. Read the preliminary title report before you tour, not after you are in contract. Know your inspection window and who you will actually call. Decide your walk-away number and write it down. And agree, in advance, who in your household has the final vote.\n\nNone of this is glamorous. All of it is why one offer gets accepted over a higher one.",
+   "body_es": "En este rango de precio, los compradores que ganan no son los que se mueven m\u00e1s r\u00e1pido por emoci\u00f3n, sino los que ya eliminaron cada raz\u00f3n por la que un vendedor podr\u00eda decir no.",
+   "author": {
+    "id": 5,
+    "name": "David Okonkwo",
+    "slug": "david-okonkwo",
+    "title": "Partner \u00b7 Coastal Division",
+    "photo_url": "",
+    "bio_en": "David leads the coastal practice, from Carbon Beach to the Palisades bluffs. A former land-use analyst, he is the person clients call when a property's value turns on a coastal permit, a setback or a view easement.",
+    "bio_es": "David dirige la pr\u00e1ctica costera, desde Carbon Beach hasta los acantilados de Palisades. Ex analista de uso de suelo, es a quien llaman los clientes cuando el valor depende de un permiso costero o una servidumbre de vistas.",
+    "phone": "(310) 555-0177",
+    "email": "david@solandstone.example",
+    "license_number": "DRE #02043xxx",
+    "specialties": [
+     "Oceanfront",
+     "New Development",
+     "1031 Exchanges"
+    ],
+    "neighborhoods": [
+     "Malibu",
+     "Pacific Palisades",
+     "Santa Monica"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$286M",
+     "homes_sold": 94,
+     "years_experience": 11,
+     "avg_days_on_market": 34
+    }
+   }
+  },
+  {
+   "id": 8,
+   "slug": "preparing-a-luxury-home-for-market",
+   "title_en": "What actually returns money when preparing a home for market",
+   "title_es": "Qu\u00e9 devuelve dinero de verdad al preparar una casa para el mercado",
+   "excerpt_en": "Not the kitchen remodel. A ranked list of pre-market spending by measured return, drawn from our own closings.",
+   "excerpt_es": "No la remodelaci\u00f3n de la cocina. Una lista de gastos previos al mercado, ordenada por retorno medido.",
+   "cover_image": "",
+   "category": "selling_guide",
+   "read_minutes": 7,
+   "published_at": "2026-07-13T07:13:07.786088-07:00",
+   "body_en": "Sellers reliably want to spend money in the wrong order. Here is ours, ranked by what we can actually measure across recent closings.\n\nFirst: paint, light and landscape. Cheap, fast, and it changes the photography, which changes the click-through, which changes the showing count.\n\nSecond: whatever an inspector will flag. Roof, drainage, panel, sewer line. You will pay for these either way \u2014 paying before the offer costs less than paying during the renegotiation.\n\nThird: staging the four rooms buyers photograph.\n\nA full kitchen remodel three weeks before listing is, in our experience, the least efficient money a seller can spend.",
+   "body_es": "Los vendedores suelen querer gastar en el orden equivocado. Este es el nuestro, ordenado por lo que podemos medir en cierres recientes.",
+   "author": {
+    "id": 6,
+    "name": "Camila Reyes",
+    "slug": "camila-reyes",
+    "title": "Senior Advisor",
+    "photo_url": "",
+    "bio_en": "Camila represents families moving into and out of the Valley's gated communities. She works in English and Spanish and has closed more than a hundred transactions without a single listing expiring unsold.",
+    "bio_es": "Camila representa a familias que entran y salen de las comunidades privadas del Valle. Trabaja en ingl\u00e9s y espa\u00f1ol y ha cerrado m\u00e1s de cien transacciones sin que una sola propiedad haya expirado sin venderse.",
+    "phone": "(818) 555-0190",
+    "email": "camila@solandstone.example",
+    "license_number": "DRE #02110xxx",
+    "specialties": [
+     "Family Estates",
+     "Relocation",
+     "Bilingual Representation"
+    ],
+    "neighborhoods": [
+     "Calabasas",
+     "Hidden Hills",
+     "Studio City"
+    ],
+    "career_stats": {
+     "total_sales_volume": "$164M",
+     "homes_sold": 121,
+     "years_experience": 8,
+     "avg_days_on_market": 31
+    }
+   }
+  }
+ ]
+}

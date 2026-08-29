@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+/* Design tokens — spec §9.1 / §9.2 */
+@theme {
+  --color-warm-white: #faf7f2;
+  --color-warm-white-alt: #f2ede5;
+  --color-soft-black: #1c1b19;
+  --color-stone: #a9a29a;
+  --color-taupe: #8c7f72;
+  --color-gold: #b9975b;
+  --color-gold-soft: #d9c9a6;
+  --color-ticker: #3a4a3e;
+  --color-ticker-text: #f5f1ea;
+
+  --font-serif: var(--font-cormorant), Cormorant Garamond, Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --ease-editorial: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+:root {
+  color-scheme: light;
+  --nav-h: 4.5rem;
+  --ticker-h: 1.9rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-warm-white);
+  color: var(--color-soft-black);
+  font-family: var(--font-sans);
+  font-feature-settings: "kern", "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: #fff;
+}
+
+/* Focus visibility is a compliance requirement, not a nicety (spec §18) */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@utility display {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  letter-spacing: -0.015em;
+  line-height: 1.06;
+}
+
+@utility eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@utility rule-gold {
+  background-image: linear-gradient(to right, var(--color-gold), transparent);
+  height: 1px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Animation — nothing longer than 500ms (spec §9.3)                   */
+/* ------------------------------------------------------------------ */
+@keyframes ss-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: ss-marquee 46s linear infinite;
+  will-change: transform;
+}
+.marquee-track:hover { animation-play-state: paused; }
+
+@keyframes ss-fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.reveal {
+  opacity: 0;
+}
+.reveal[data-shown="true"] {
+  animation: ss-fade-up 0.48s var(--ease-editorial) forwards;
+}
+
+@keyframes ss-page-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.page-in { animation: ss-page-in 0.32s var(--ease-editorial) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+  .reveal { opacity: 1; animation: none !important; }
+  .page-in { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* Image hover: 300–400ms, scale 1.02–1.03 (spec §9.3) */
+.zoom-parent img,
+.zoom-parent .zoom-target {
+  transition: transform 0.4s var(--ease-editorial);
+}
+.zoom-parent:hover img,
+.zoom-parent:hover .zoom-target {
+  transform: scale(1.03);
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+/* ------------------------------------------------------------------ */
+/* Pannellum hotspots, restyled to the brand (spec §5.3)               */
+/* ------------------------------------------------------------------ */
+.pnlm-container { background: #1c1b19 !important; }
+.pnlm-load-box { display: none !important; }
+
+.ss-hotspot {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid var(--color-gold);
+  background: rgba(185, 151, 91, 0.22);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 0 6px rgba(185, 151, 91, 0.12);
+  transition: transform 0.3s var(--ease-editorial), background 0.3s;
+}
+.ss-hotspot:hover { transform: scale(1.12); background: rgba(185, 151, 91, 0.4); }
+.ss-hotspot::after {
+  content: "";
+  position: absolute;
+  inset: 13px;
+  border-right: 1px solid var(--color-gold);
+  border-top: 1px solid var(--color-gold);
+  transform: rotate(45deg);
+}
+.pnlm-tooltip span {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: var(--color-soft-black);
+  color: var(--color-warm-white);
+  border-radius: 0;
+  padding: 6px 10px;
+}
+.pnlm-tooltip span::after { border-top-color: var(--color-soft-black) !important; }
