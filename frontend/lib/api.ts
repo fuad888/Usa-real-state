@@ -18,12 +18,30 @@ import type {
   ValuationResult,
 } from "./types";
 
-export const DJANGO_API =
-  process.env.NEXT_PUBLIC_DJANGO_API_URL?.replace(/\/$/, "") ?? "http://localhost:8000/api";
-export const FASTAPI_URL =
-  process.env.NEXT_PUBLIC_FASTAPI_URL?.replace(/\/$/, "") ?? "http://localhost:8001";
+// Server Components run inside the Next.js container, where the browser-facing
+// NEXT_PUBLIC_* URLs (published host ports, e.g. "localhost:8000") don't
+// resolve — that's the frontend container's own localhost, not Django's. When
+// running on the server we prefer the Docker-network-internal URL instead;
+// client components (which execute in the visitor's browser) always use the
+// NEXT_PUBLIC_* value. In local (non-Docker) dev both point at localhost, so
+// this has no effect outside docker-compose.
+const isServer = typeof window === "undefined";
 
-const REVALIDATE = 300;
+export const DJANGO_API = (
+  (isServer ? process.env.DJANGO_API_INTERNAL_URL : undefined) ??
+  process.env.NEXT_PUBLIC_DJANGO_API_URL ??
+  "http://localhost:8000/api"
+).replace(/\/$/, "");
+export const FASTAPI_URL = (
+  (isServer ? process.env.FASTAPI_INTERNAL_URL : undefined) ??
+  process.env.NEXT_PUBLIC_FASTAPI_URL ??
+  "http://localhost:8001"
+).replace(/\/$/, "");
+
+// Short on purpose: this is a demo the client edits live in the Django admin
+// and expects to see reflected on the site within seconds, not the 5 minutes
+// a typical production ISR window would use.
+const REVALIDATE = 10;
 
 const snapshot = demo as unknown as {
   properties: Property[];

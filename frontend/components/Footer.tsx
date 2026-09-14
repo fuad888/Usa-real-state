@@ -17,6 +17,14 @@ function EqualHousingMark({ className = "" }: { className?: string }) {
   );
 }
 
+const LEGAL_HREFS = {
+  privacy: "/privacy",
+  terms: "/terms",
+  accessibility: "/accessibility",
+  fairHousing: "/fair-housing",
+  dmca: "/dmca",
+} as const;
+
 export function Footer() {
   const t = useTranslations("footer");
   const nav = useTranslations("nav");
@@ -117,7 +125,7 @@ export function Footer() {
           <ul className="flex flex-wrap gap-x-5 gap-y-2">
             {(["privacy", "terms", "accessibility", "fairHousing", "dmca"] as const).map((k) => (
               <li key={k}>
-                <Link href="/about" className="hover:text-gold">
+                <Link href={LEGAL_HREFS[k]} className="hover:text-gold">
                   {t(k)}
                 </Link>
               </li>

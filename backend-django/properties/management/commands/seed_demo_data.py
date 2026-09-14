@@ -5,11 +5,11 @@
 Every address, agent and statistic below is invented for the client pitch — none
 of it refers to a real listing or a real person.
 
-Imagery is intentionally absent in the demo phase: image/photo/cover URL fields
-are left blank and the frontend draws a branded CSS gradient placeholder in
-their place. Real photography is added in Phase 1 through the Django admin,
-where every image field accepts either an upload or a URL — the moment a value
-exists, the frontend renders the real image instead of the placeholder.
+Listing photos are stock/sample imagery (royalty-free Unsplash photos, not the
+actual fictional houses) so the demo has something to show; agent/community
+image fields are still left blank and fall back to the branded gradient
+placeholder. Real photography replaces any of this in Phase 1 through the
+Django admin — the moment a value exists, the frontend renders it as-is.
 """
 
 from datetime import datetime, timedelta, timezone
@@ -23,6 +23,47 @@ from insights.models import Article
 from properties.models import Property, PropertyImage, PropertyTour
 
 NOW = datetime.now(timezone.utc)
+
+
+def _unsplash(photo_id: str, width: int = 1600) -> str:
+    return f"https://images.unsplash.com/photo-{photo_id}?w={width}&q=80&auto=format&fit=crop"
+
+
+# Sample stock photography, cycled across listings for variety. Not photos of
+# the fictional addresses above — swapped for real photography in Phase 1.
+_EXTERIOR_IMAGES = [
+    _unsplash("1600585154340-be6161a56a0c"),
+    _unsplash("1600585154526-990dced4db0d"),
+    _unsplash("1591474200742-8e512e6f98f8"),
+    _unsplash("1600047509807-ba8f99d2cdde"),
+]
+_LIVING_ROOM_IMAGES = [
+    _unsplash("1600566753086-00f18fb6b3ea"),
+    _unsplash("1616486338812-3dadae4b4ace"),
+    _unsplash("1600210491892-03d54c0aaf87"),
+    _unsplash("1600210492486-724fe5c67fb0"),
+]
+_KITCHEN_IMAGES = [
+    _unsplash("1556909212-d5b604d0c90d"),
+    _unsplash("1600607687920-4e2a09cf159d"),
+]
+_ROOM_IMAGES = {
+    "Primary Suite": _unsplash("1540518614846-7eded433c457"),
+    "Pool": _unsplash("1613490493576-7fde63acd811"),
+    "Garden": _unsplash("1585320806297-9794b3e4eeae"),
+    "Terrace": _unsplash("1613490493576-7fde63acd811"),
+    "Roof Deck": _unsplash("1613490493576-7fde63acd811"),
+}
+
+
+def image_url_for(room: str, listing_index: int) -> str:
+    if room == "Exterior":
+        return _EXTERIOR_IMAGES[listing_index % len(_EXTERIOR_IMAGES)]
+    if room == "Living Room":
+        return _LIVING_ROOM_IMAGES[listing_index % len(_LIVING_ROOM_IMAGES)]
+    if room == "Kitchen":
+        return _KITCHEN_IMAGES[listing_index % len(_KITCHEN_IMAGES)]
+    return _ROOM_IMAGES.get(room, "")
 
 AGENTS = [
     dict(
@@ -483,10 +524,8 @@ class Command(BaseCommand):
 
             prop.images.all().delete()
             for order, (caption, room) in enumerate(images):
-                # No URL in the demo — the frontend renders a placeholder keyed
-                # off `room`. Uploading a photo in the admin replaces it.
                 PropertyImage.objects.create(
-                    property=prop, image_url="", caption=caption, room=room, order=order,
+                    property=prop, image_url=image_url_for(room, i), caption=caption, room=room, order=order,
                 )
 
             if i == 0:

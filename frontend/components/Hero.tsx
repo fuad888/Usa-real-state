@@ -53,7 +53,15 @@ export function Hero({
       }`}
     >
       {image ? (
-        <Image src={image} alt={alt} fill priority sizes="100vw" className="object-cover" />
+        <Image
+          src={image}
+          alt={alt}
+          fill
+          priority
+          sizes="100vw"
+          unoptimized={image.startsWith("http")}
+          className="object-cover"
+        />
       ) : (
         <div aria-hidden className="absolute inset-0" style={placeholderStyle(seed, true)} />
       )}

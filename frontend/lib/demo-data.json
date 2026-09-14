@@ -1,7 +1,7 @@
 {
  "properties": [
   {
-   "id": 9,
+   "id": 4,
    "slug": "santa-monica-88-pacific-terrace",
    "title": "Ocean-view townhome three blocks from the bluff",
    "address": "88 Pacific Terrace",
@@ -31,42 +31,42 @@
    "price_per_sqft": 1068,
    "images": [
     {
-     "id": 41,
-     "url": "",
+     "id": 16,
+     "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1600&q=80&auto=format&fit=crop",
      "caption": "Front elevation",
      "room": "Exterior",
      "order": 0
     },
     {
-     "id": 42,
-     "url": "",
+     "id": 17,
+     "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1600&q=80&auto=format&fit=crop",
      "caption": "Living floor with ocean view",
      "room": "Living Room",
      "order": 1
     },
     {
-     "id": 43,
-     "url": "",
+     "id": 18,
+     "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=80&auto=format&fit=crop",
      "caption": "Kitchen and dining",
      "room": "Kitchen",
      "order": 2
     },
     {
-     "id": 44,
-     "url": "",
+     "id": 19,
+     "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1600&q=80&auto=format&fit=crop",
      "caption": "Primary bedroom",
      "room": "Primary Suite",
      "order": 3
     },
     {
-     "id": 45,
-     "url": "",
+     "id": 20,
+     "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=80&auto=format&fit=crop",
      "caption": "Roof deck",
      "room": "Roof Deck",
      "order": 4
     }
    ],
-   "created_at": "2026-08-29T07:13:07.855151-07:00",
+   "created_at": "2026-08-29T12:35:22.091696-07:00",
    "description_en": "A front-facing townhome on a quiet terrace three blocks from the bluff, with ocean views from the living floor and the roof deck.\n\nThree bedrooms, an elevator to all levels, and a two-car garage \u2014 the combination that keeps this pocket of Santa Monica liquid even in slower quarters. Recently repriced to meet the market.\n\nHOA covers exterior, roof and common insurance.",
    "description_es": "Una casa adosada frontal en una terraza tranquila a tres cuadras del acantilado, con vistas al mar desde la planta principal y la azotea.",
    "highlights": [
@@ -83,7 +83,7 @@
     "In-Unit Laundry"
    ],
    "agent": {
-    "id": 5,
+    "id": 2,
     "name": "David Okonkwo",
     "slug": "david-okonkwo",
     "title": "Partner \u00b7 Coastal Division",
@@ -113,7 +113,7 @@
    "tour_scenes": []
   },
   {
-   "id": 8,
+   "id": 3,
    "slug": "los-angeles-742-hillcrest-avenue",
    "title": "A restored 1948 post-and-beam with a new kitchen",
    "address": "742 Hillcrest Avenue",
@@ -134,7 +134,7 @@
    "year_built": 1948,
    "hoa_fee": null,
    "is_featured": true,
-   "open_house_at": "2026-09-01T07:13:07.786088-07:00",
+   "open_house_at": "2026-09-01T12:35:21.978915-07:00",
    "community_slug": null,
    "community_name": null,
    "agent_slug": "camila-reyes",
@@ -143,42 +143,42 @@
    "price_per_sqft": 667,
    "images": [
     {
-     "id": 36,
-     "url": "",
+     "id": 11,
+     "url": "https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?w=1600&q=80&auto=format&fit=crop",
      "caption": "Street elevation",
      "room": "Exterior",
      "order": 0
     },
     {
-     "id": 37,
-     "url": "",
+     "id": 12,
+     "url": "https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1600&q=80&auto=format&fit=crop",
      "caption": "Living room with original beams",
      "room": "Living Room",
      "order": 1
     },
     {
-     "id": 38,
-     "url": "",
+     "id": 13,
+     "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=1600&q=80&auto=format&fit=crop",
      "caption": "New kitchen",
      "room": "Kitchen",
      "order": 2
     },
     {
-     "id": 39,
-     "url": "",
+     "id": 14,
+     "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1600&q=80&auto=format&fit=crop",
      "caption": "Primary bedroom",
      "room": "Primary Suite",
      "order": 3
     },
     {
-     "id": 40,
-     "url": "",
+     "id": 15,
+     "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1600&q=80&auto=format&fit=crop",
      "caption": "Rear garden",
      "room": "Garden",
      "order": 4
     }
    ],
-   "created_at": "2026-08-29T07:13:07.852820-07:00",
+   "created_at": "2026-08-29T12:35:22.088958-07:00",
    "description_en": "A 1948 post-and-beam that has been brought forward carefully: the original structure, clerestory glazing and brick hearth are intact, while the kitchen, baths, systems and roof are all new within the last two years.\n\nThe plan is a genuine four-bedroom, with a north-facing garden that stays usable through August and a detached studio at the rear currently used as an office.\n\nOpen house Saturday and Sunday, 1\u20134pm.",
    "description_es": "Una casa post-and-beam de 1948 restaurada con cuidado: la estructura original, los ventanales altos y la chimenea de ladrillo intactos; cocina, ba\u00f1os e instalaciones nuevos.",
    "highlights": [
@@ -195,7 +195,7 @@
     "Mature Landscaping"
    ],
    "agent": {
-    "id": 6,
+    "id": 3,
     "name": "Camila Reyes",
     "slug": "camila-reyes",
     "title": "Senior Advisor",
@@ -225,7 +225,7 @@
    "tour_scenes": []
   },
   {
-   "id": 7,
+   "id": 2,
    "slug": "malibu-210-ocean-front-walk",
    "title": "Sand-level contemporary on a rare wide frontage",
    "address": "210 Ocean Front Walk",
@@ -255,42 +255,42 @@
    "price_per_sqft": 1438,
    "images": [
     {
-     "id": 31,
-     "url": "",
+     "id": 6,
+     "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600&q=80&auto=format&fit=crop",
      "caption": "Ocean elevation",
      "room": "Exterior",
      "order": 0
     },
     {
-     "id": 32,
-     "url": "",
+     "id": 7,
+     "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1600&q=80&auto=format&fit=crop",
      "caption": "Sand-level living floor",
      "room": "Living Room",
      "order": 1
     },
     {
-     "id": 33,
-     "url": "",
+     "id": 8,
+     "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1600&q=80&auto=format&fit=crop",
      "caption": "Open kitchen and dining",
      "room": "Kitchen",
      "order": 2
     },
     {
-     "id": 34,
-     "url": "",
+     "id": 9,
+     "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1600&q=80&auto=format&fit=crop",
      "caption": "Primary suite above the water",
      "room": "Primary Suite",
      "order": 3
     },
     {
-     "id": 35,
-     "url": "",
+     "id": 10,
+     "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=80&auto=format&fit=crop",
      "caption": "Terrace and spa",
      "room": "Terrace",
      "order": 4
     }
    ],
-   "created_at": "2026-08-29T07:13:07.850594-07:00",
+   "created_at": "2026-08-29T12:35:22.085556-07:00",
    "description_en": "Fifty-eight feet of frontage on one of the wider sand parcels at Point Dume, with a permitted seawall already in place \u2014 the detail that decides value on this stretch.\n\nThe house is planned in three levels that step back from the water: a glass-walled living floor at sand level, bedrooms above, and a roof deck that clears the neighbouring rooflines. A detached studio at the motor court serves as a guest suite or office.\n\nComing to market shortly. Private previews are available to qualified buyers.",
    "description_es": "Casi dieciocho metros de frente en una de las parcelas m\u00e1s anchas de Point Dume, con malec\u00f3n ya permitido \u2014 el detalle que decide el valor en este tramo de costa.",
    "highlights": [
@@ -309,7 +309,7 @@
     "Heated Floors"
    ],
    "agent": {
-    "id": 5,
+    "id": 2,
     "name": "David Okonkwo",
     "slug": "david-okonkwo",
     "title": "Partner \u00b7 Coastal Division",
@@ -339,7 +339,7 @@
    "tour_scenes": []
   },
   {
-   "id": 6,
+   "id": 1,
    "slug": "beverly-hills-1428-blue-jay-way",
    "title": "A canyon-edge modern above the Sunset Strip",
    "address": "1428 Blue Jay Way",
@@ -369,42 +369,42 @@
    "price_per_sqft": 685,
    "images": [
     {
-     "id": 26,
-     "url": "",
+     "id": 1,
+     "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&auto=format&fit=crop",
      "caption": "Front elevation at golden hour",
      "room": "Exterior",
      "order": 0
     },
     {
-     "id": 27,
-     "url": "",
+     "id": 2,
+     "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1600&q=80&auto=format&fit=crop",
      "caption": "Living room with retractable glass wall",
      "room": "Living Room",
      "order": 1
     },
     {
-     "id": 28,
-     "url": "",
+     "id": 3,
+     "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=1600&q=80&auto=format&fit=crop",
      "caption": "Chef's kitchen with walnut island",
      "room": "Kitchen",
      "order": 2
     },
     {
-     "id": 29,
-     "url": "",
+     "id": 4,
+     "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1600&q=80&auto=format&fit=crop",
      "caption": "Primary suite facing the canyon",
      "room": "Primary Suite",
      "order": 3
     },
     {
-     "id": 30,
-     "url": "",
+     "id": 5,
+     "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=80&auto=format&fit=crop",
      "caption": "Infinity pool and terrace",
      "room": "Pool",
      "order": 4
     }
    ],
-   "created_at": "2026-08-29T07:13:07.846269-07:00",
+   "created_at": "2026-08-29T12:35:22.077243-07:00",
    "description_en": "Set on a promontory at the top of the Bird Streets, this 2019 residence is organised around a single uninterrupted view corridor that runs from the canyon wall to the Pacific.\n\nThe main level opens completely: forty feet of glass retract into the walls so the living room, the terrace and the pool deck read as one room. Below, four bedroom suites share a gallery-lit hall; above, the primary occupies its own floor with a private terrace, dual dressing rooms and a stone bath that faces due west.\n\nOffered with a full 360\u00b0 tour of the principal rooms.",
    "description_es": "Situada en un promontorio en lo alto de las Bird Streets, esta residencia de 2019 se organiza en torno a un \u00fanico corredor de vistas que va desde la pared del ca\u00f1\u00f3n hasta el Pac\u00edfico.\n\nEl nivel principal se abre por completo: doce metros de cristal se retraen en los muros.",
    "highlights": [
@@ -424,7 +424,7 @@
     "Gated Motor Court"
    ],
    "agent": {
-    "id": 4,
+    "id": 1,
     "name": "Elena Marchetti",
     "slug": "elena-marchetti",
     "title": "Founding Partner \u00b7 DRE #01998xxx",
@@ -453,7 +453,7 @@
    },
    "tour_scenes": [
     {
-     "id": 5,
+     "id": 1,
      "scene_id": "living-room",
      "room_name": "Living Room",
      "url": "",
@@ -482,7 +482,7 @@
      "order": 1
     },
     {
-     "id": 6,
+     "id": 2,
      "scene_id": "kitchen",
      "room_name": "Kitchen",
      "url": "",
@@ -505,7 +505,7 @@
      "order": 2
     },
     {
-     "id": 7,
+     "id": 3,
      "scene_id": "primary-suite",
      "room_name": "Primary Suite",
      "url": "",
@@ -528,7 +528,7 @@
      "order": 3
     },
     {
-     "id": 8,
+     "id": 4,
      "scene_id": "terrace",
      "room_name": "Pool Terrace",
      "url": "",
@@ -547,7 +547,7 @@
    ]
   },
   {
-   "id": 10,
+   "id": 5,
    "slug": "calabasas-15-rolling-hills-drive",
    "title": "Gated family estate on just under an acre",
    "address": "15 Rolling Hills Drive",
@@ -577,42 +577,42 @@
    "price_per_sqft": 604,
    "images": [
     {
-     "id": 46,
-     "url": "",
+     "id": 21,
+     "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&auto=format&fit=crop",
      "caption": "Front elevation and motor court",
      "room": "Exterior",
      "order": 0
     },
     {
-     "id": 47,
-     "url": "",
+     "id": 22,
+     "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1600&q=80&auto=format&fit=crop",
      "caption": "Family room",
      "room": "Living Room",
      "order": 1
     },
     {
-     "id": 48,
-     "url": "",
+     "id": 23,
+     "url": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=1600&q=80&auto=format&fit=crop",
      "caption": "Kitchen with island seating",
      "room": "Kitchen",
      "order": 2
     },
     {
-     "id": 49,
-     "url": "",
+     "id": 24,
+     "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1600&q=80&auto=format&fit=crop",
      "caption": "Primary suite",
      "room": "Primary Suite",
      "order": 3
     },
     {
-     "id": 50,
-     "url": "",
+     "id": 25,
+     "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&q=80&auto=format&fit=crop",
      "caption": "Pool, spa and loggia",
      "room": "Pool",
      "order": 4
     }
    ],
-   "created_at": "2026-08-29T07:13:07.857342-07:00",
+   "created_at": "2026-08-29T12:35:22.094580-07:00",
    "description_en": "Just under an acre behind a guarded gate, with the flat usable yard that is genuinely scarce in the Santa Monica Mountains foothills.\n\nFive bedrooms including a main-floor suite, a pool and spa, a sport court, and an outdoor kitchen under a covered loggia. The house was built in 2004 and re-roofed and re-piped in 2021.\n\nCurrently in escrow; back-up offers are being accepted.",
    "description_es": "Poco menos de media hect\u00e1rea tras una puerta con vigilancia, con el patio plano y utilizable que escasea en las estribaciones de las Santa Monica Mountains.",
    "highlights": [
@@ -631,7 +631,7 @@
     "Outdoor Kitchen"
    ],
    "agent": {
-    "id": 6,
+    "id": 3,
     "name": "Camila Reyes",
     "slug": "camila-reyes",
     "title": "Senior Advisor",
@@ -663,7 +663,7 @@
  ],
  "agents": [
   {
-   "id": 4,
+   "id": 1,
    "name": "Elena Marchetti",
    "slug": "elena-marchetti",
    "title": "Founding Partner \u00b7 DRE #01998xxx",
@@ -691,7 +691,7 @@
    }
   },
   {
-   "id": 5,
+   "id": 2,
    "name": "David Okonkwo",
    "slug": "david-okonkwo",
    "title": "Partner \u00b7 Coastal Division",
@@ -719,7 +719,7 @@
    }
   },
   {
-   "id": 6,
+   "id": 3,
    "name": "Camila Reyes",
    "slug": "camila-reyes",
    "title": "Senior Advisor",
@@ -749,7 +749,7 @@
  ],
  "communities": [
   {
-   "id": 4,
+   "id": 1,
    "name": "Beverly Hills",
    "slug": "beverly-hills",
    "state": "CA",
@@ -804,7 +804,7 @@
    "active_listings": 1
   },
   {
-   "id": 5,
+   "id": 2,
    "name": "Malibu",
    "slug": "malibu",
    "state": "CA",
@@ -860,7 +860,7 @@
    "active_listings": 1
   },
   {
-   "id": 6,
+   "id": 3,
    "name": "Santa Monica",
    "slug": "santa-monica",
    "state": "CA",
@@ -917,7 +917,7 @@
  ],
  "insights": [
   {
-   "id": 5,
+   "id": 1,
    "slug": "california-luxury-market-q3",
    "title_en": "Where the California luxury market actually stands",
    "title_es": "D\u00f3nde est\u00e1 realmente el mercado de lujo de California",
@@ -926,11 +926,11 @@
    "cover_image": "",
    "category": "market_report",
    "read_minutes": 6,
-   "published_at": "2026-08-25T07:13:07.786088-07:00",
+   "published_at": "2026-08-25T12:35:21.978915-07:00",
    "body_en": "Headline medians are the least useful number in a luxury market, because they average two things that are moving in opposite directions.\n\nRenovated, permitted, move-in product is still clearing close to ask and inside forty days. Unrenovated inventory at the same address band is taking twice as long and closing five to nine percent under list. The median hides both.\n\nFor sellers the implication is unglamorous: the pre-market preparation budget is now the single highest-return decision in the transaction. For buyers, the opposite \u2014 the discount for taking on a project has not been this wide since 2019.\n\nWe publish this report quarterly, drawn from closed transactions rather than list prices.",
    "body_es": "Las medianas de titular son el n\u00famero menos \u00fatil en un mercado de lujo, porque promedian dos cosas que se mueven en direcciones opuestas.\n\nEl producto renovado y listo para habitar sigue cerrando cerca del precio de lista y en menos de cuarenta d\u00edas. El inventario sin renovar tarda el doble.",
    "author": {
-    "id": 4,
+    "id": 1,
     "name": "Elena Marchetti",
     "slug": "elena-marchetti",
     "title": "Founding Partner \u00b7 DRE #01998xxx",
@@ -959,7 +959,7 @@
    }
   },
   {
-   "id": 6,
+   "id": 2,
    "slug": "beverly-hills-neighborhood-guide",
    "title_en": "Beverly Hills, street by street",
    "title_es": "Beverly Hills, calle por calle",
@@ -968,11 +968,11 @@
    "cover_image": "",
    "category": "neighborhood_guide",
    "read_minutes": 8,
-   "published_at": "2026-08-11T07:13:07.786088-07:00",
+   "published_at": "2026-08-11T12:35:21.978915-07:00",
    "body_en": "People say Beverly Hills as though it were one market. It is at least three, and they price differently enough that confusing them will cost you.\n\n**The flats.** South of Sunset, north of Wilshire. Value tracks lot width and street canopy more than it tracks the house. A fifty-foot lot and a seventy-foot lot on the same block are not the same asset.\n\n**North of Sunset.** Hillside, winding, private. Architecture and view carry the price here, and a difficult driveway can take ten percent off an otherwise strong house.\n\n**Trousdale.** Flat pads, low rooflines, protected views by covenant. It behaves like its own micro-market and often leads the others by a quarter.",
    "body_es": "La gente dice Beverly Hills como si fuera un solo mercado. Son al menos tres, y sus precios se comportan de forma lo bastante distinta como para que confundirlos salga caro.",
    "author": {
-    "id": 4,
+    "id": 1,
     "name": "Elena Marchetti",
     "slug": "elena-marchetti",
     "title": "Founding Partner \u00b7 DRE #01998xxx",
@@ -1001,7 +1001,7 @@
    }
   },
   {
-   "id": 7,
+   "id": 3,
    "slug": "what-to-do-before-you-tour",
    "title_en": "Six things to settle before you tour a single house",
    "title_es": "Seis cosas que resolver antes de ver una sola casa",
@@ -1010,11 +1010,11 @@
    "cover_image": "",
    "category": "buying_guide",
    "read_minutes": 5,
-   "published_at": "2026-07-28T07:13:07.786088-07:00",
+   "published_at": "2026-07-28T12:35:21.978915-07:00",
    "body_en": "At this price point, the buyers who win are not the ones who move fastest on emotion. They are the ones who have already removed every reason a seller might say no.\n\nSettle your financing structure in writing. Confirm insurability early \u2014 in fire zones this now takes weeks, not days. Read the preliminary title report before you tour, not after you are in contract. Know your inspection window and who you will actually call. Decide your walk-away number and write it down. And agree, in advance, who in your household has the final vote.\n\nNone of this is glamorous. All of it is why one offer gets accepted over a higher one.",
    "body_es": "En este rango de precio, los compradores que ganan no son los que se mueven m\u00e1s r\u00e1pido por emoci\u00f3n, sino los que ya eliminaron cada raz\u00f3n por la que un vendedor podr\u00eda decir no.",
    "author": {
-    "id": 5,
+    "id": 2,
     "name": "David Okonkwo",
     "slug": "david-okonkwo",
     "title": "Partner \u00b7 Coastal Division",
@@ -1043,7 +1043,7 @@
    }
   },
   {
-   "id": 8,
+   "id": 4,
    "slug": "preparing-a-luxury-home-for-market",
    "title_en": "What actually returns money when preparing a home for market",
    "title_es": "Qu\u00e9 devuelve dinero de verdad al preparar una casa para el mercado",
@@ -1052,11 +1052,11 @@
    "cover_image": "",
    "category": "selling_guide",
    "read_minutes": 7,
-   "published_at": "2026-07-13T07:13:07.786088-07:00",
+   "published_at": "2026-07-13T12:35:21.978915-07:00",
    "body_en": "Sellers reliably want to spend money in the wrong order. Here is ours, ranked by what we can actually measure across recent closings.\n\nFirst: paint, light and landscape. Cheap, fast, and it changes the photography, which changes the click-through, which changes the showing count.\n\nSecond: whatever an inspector will flag. Roof, drainage, panel, sewer line. You will pay for these either way \u2014 paying before the offer costs less than paying during the renegotiation.\n\nThird: staging the four rooms buyers photograph.\n\nA full kitchen remodel three weeks before listing is, in our experience, the least efficient money a seller can spend.",
    "body_es": "Los vendedores suelen querer gastar en el orden equivocado. Este es el nuestro, ordenado por lo que podemos medir en cierres recientes.",
    "author": {
-    "id": 6,
+    "id": 3,
     "name": "Camila Reyes",
     "slug": "camila-reyes",
     "title": "Senior Advisor",

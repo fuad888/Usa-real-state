@@ -42,7 +42,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Navbar overHero />
       <MarketTicker />
       <main id="main" className="page-in">
-        <Hero seed="sol-stone-home" alt={t("heroTitle")}>
+        <Hero
+          seed="sol-stone-home"
+          alt={t("heroTitle")}
+          image="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=2400&q=80&auto=format&fit=crop"
+        >
           <p className="eyebrow text-gold-soft">{t("heroEyebrow")}</p>
           <h1 className="display mt-4 max-w-4xl text-[2.6rem] sm:text-6xl lg:text-7xl">
             {t("heroTitle")}

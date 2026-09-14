@@ -11,6 +11,10 @@ services:
       DJANGO_ALLOWED_HOSTS: "localhost,127.0.0.1,django"
       CORS_ALLOWED_ORIGINS: "http://localhost:3000"
       CSRF_TRUSTED_ORIGINS: "http://localhost:3000"
+      # Keep the SQLite file on the named volume below instead of the
+      # container's writable layer, so admin-entered data (and superusers)
+      # survive `docker compose up --build`/container recreation.
+      DATABASE_URL: "sqlite:////app/data/db.sqlite3"
     volumes:
       - django-data:/app/data
       - ./backend-django/media:/app/media
@@ -31,6 +35,12 @@ services:
         NEXT_PUBLIC_SITE_URL: "http://localhost:3000"
     ports:
       - "3000:3000"
+    environment:
+      # Read server-side (Server Components) to reach the other containers over
+      # the Docker network; the NEXT_PUBLIC_* build args above are for the
+      # browser and stay pointed at the published host ports.
+      DJANGO_API_INTERNAL_URL: "http://django:8000/api"
+      FASTAPI_INTERNAL_URL: "http://fastapi:8001"
     depends_on:
       - django
       - fastapi

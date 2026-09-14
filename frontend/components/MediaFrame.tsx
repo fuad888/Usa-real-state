@@ -71,13 +71,19 @@ export function MediaFrame({
   labelClassName?: string;
 }) {
   if (src) {
+    const resolved = mediaUrl(src);
     return (
       <Image
-        src={mediaUrl(src)}
+        src={resolved}
         alt={alt}
         fill
         priority={priority}
         sizes={sizes}
+        // Next's remote image optimizer needs a same-origin proxy or a
+        // correctly matched remotePattern; skip it for absolute URLs (sample
+        // Unsplash photos, or a future external media/CDN host) so the browser
+        // just loads the source directly instead of a 400 from the optimizer.
+        unoptimized={resolved.startsWith("http")}
         className={`object-cover ${className}`}
       />
     );
